@@ -3,9 +3,9 @@ package kristina.data;
 import java.io.Serializable;
 import java.util.List;
 
-public class proizvod implements Serializable {
+public class Proizvod implements Serializable {
 
-    public static List<proizvod> getAllProizvodi() {
+    public static List<Proizvod> getAllProizvodi() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     private int proizvod_id = -1;
@@ -15,11 +15,11 @@ public class proizvod implements Serializable {
     private int stanje_na_lageru;
 
    
-    public proizvod() {
+    public Proizvod() {
     }
 
     
-    public proizvod(int proizvod_id, String naziv, int cena, String vrsta_opreme, int stanje_na_lageru) {
+    public Proizvod(int proizvod_id, String naziv, int cena, String vrsta_opreme, int stanje_na_lageru) {
         this.proizvod_id = proizvod_id;
         this.naziv = naziv;
         this.cena = cena;
@@ -28,7 +28,7 @@ public class proizvod implements Serializable {
     }
 
    
-    public proizvod(String naziv, int cena, String vrsta_opreme, int stanje_na_lageru) {
+    public Proizvod(String naziv, int cena, String vrsta_opreme, int stanje_na_lageru) {
         this.naziv = naziv;
         this.cena = cena;
         this.vrsta_opreme = vrsta_opreme;

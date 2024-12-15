@@ -8,6 +8,6 @@ package kristina.dao;
  *
  * @author Kiki
  */
-public class UserDao {
+public class KorisnikDao {
     
 }

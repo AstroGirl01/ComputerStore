@@ -7,7 +7,7 @@ package kristina.data;
 import java.io.Serializable;
 
 
-public class podesavanje_pretrage implements Serializable {
+public class Podesavanje_Pretrage implements Serializable {
     private int podesavanje_pretrage_id = -1;
     private int donja_granica_obima_cene;
     private int gornja_granica_obima_cene;
@@ -15,10 +15,10 @@ public class podesavanje_pretrage implements Serializable {
     private String kljucna_rec;
 
   
-    public podesavanje_pretrage() {
+    public Podesavanje_Pretrage() {
     }
 
-    public podesavanje_pretrage(int podesavanje_pretrage_id, int donja_granica_obima_cene, int gornja_granica_obima_cene, String vrsta_opreme, String kljucna_rec) {
+    public Podesavanje_Pretrage(int podesavanje_pretrage_id, int donja_granica_obima_cene, int gornja_granica_obima_cene, String vrsta_opreme, String kljucna_rec) {
         this.podesavanje_pretrage_id = podesavanje_pretrage_id;
         this.donja_granica_obima_cene = donja_granica_obima_cene;
         this.gornja_granica_obima_cene = gornja_granica_obima_cene;
@@ -27,7 +27,7 @@ public class podesavanje_pretrage implements Serializable {
     }
 
     
-    public podesavanje_pretrage(int donja_granica_obima_cene, int gornja_granica_obima_cene, String vrsta_opreme, String kljucna_rec) {
+    public Podesavanje_Pretrage(int donja_granica_obima_cene, int gornja_granica_obima_cene, String vrsta_opreme, String kljucna_rec) {
         this.donja_granica_obima_cene = donja_granica_obima_cene;
         this.gornja_granica_obima_cene = gornja_granica_obima_cene;
         this.vrsta_opreme = vrsta_opreme;

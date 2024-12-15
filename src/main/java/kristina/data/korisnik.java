@@ -2,7 +2,7 @@ package kristina.data;
 
 import java.io.Serializable;
 
-public class korisnik implements Serializable {
+public class Korisnik implements Serializable {
     private int korisnikId = -1;
     private String ime_i_prezime;
     private String username;
@@ -13,11 +13,11 @@ public class korisnik implements Serializable {
     private int kolicina_potrosenog_novca;
 
     
-    public korisnik() {
+    public Korisnik() {
     }
 
     
-    public korisnik(int korisnikId, String ime_i_prezime, String username,String password, String e_mail, String datum_rodjenja, int stanje_racuna, int kolicina_potrosenog_novca) {
+    public Korisnik(int korisnikId, String ime_i_prezime, String username,String password, String e_mail, String datum_rodjenja, int stanje_racuna, int kolicina_potrosenog_novca) {
         this.korisnikId = korisnikId;
         this.ime_i_prezime = ime_i_prezime;
         this.username = username;
@@ -29,7 +29,7 @@ public class korisnik implements Serializable {
     }
 
   
-    public korisnik(String ime_i_prezime, String username,String password, String e_mail, String datum_rodjenja, int stanje_racuna, int kolicina_potrosenog_novca) {
+    public Korisnik(String ime_i_prezime, String username,String password, String e_mail, String datum_rodjenja, int stanje_racuna, int kolicina_potrosenog_novca) {
         this.ime_i_prezime = ime_i_prezime;
         this.username = username;
         this.password = password;
